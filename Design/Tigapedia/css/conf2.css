@@ -1,0 +1,161 @@
+@media screen and (min-width:768px){
+
+html,body{
+	margin: 0px;
+	padding: 0px;
+	font-size: 84.5%;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	color: #000000;
+	background-color: transparent;
+	/*font-family: "Meiryo UI","メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro","Osaka", Verdana, "ＭＳ Ｐゴシック", "MS P Gothic" Helvetica, sans-serif;*/
+	font-family: "Meiryo UI","メイリオ", "Meiryo", sans-serif;
+}
+img{
+	border: none;
+	vertical-align: bottom;
+}
+/*--------- レイアウト ---------*/
+body{
+	background:#222;/*222*/
+	width:auto;
+	font-size:15px;/*追加*/
+}
+#wrapper{
+	width:750px;
+	margin:0 auto;
+	background:#E7E1CF;/*fff*/
+}
+#header{
+	width:750px;
+	height:100px;
+	background:#002244;/*432*/
+
+	color:#fff;
+	font-family:"Impact";
+	font-size:25px;/*60p*/
+	line-height:100px;
+	text-indent:20px;
+	text-align:left;
+
+	border-bottom:5px #4191e0 solid;
+}
+#menu{
+	float:left;
+	width:150px;
+	background:#987;/*987*/
+}
+#main{
+	float:right;
+	width:520px;
+	padding:40px;
+	background:none;
+}
+#footer{
+	clear:both;
+	width:750px;
+	height:20px;
+	background:#002244;
+	color:#fff;
+	text-align:center;
+}
+/*--------- メニュー用レイアウト ---------*/
+#menu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style:none outside;
+	border:none;
+	width:150px;
+}
+#menu li a{
+	float:left;
+	display:block;
+	width:150px;
+	height:2em;
+	background:#696969;/*960-4682B4*/
+
+	font-size:20px;/*1.8em*/
+	font-family:"Century Gothic";
+	line-height:2em;
+	text-align:center;
+	text-decoration: none;
+	color:#112233;/*f90*/
+
+	border-bottom:1px #000 solid;
+}
+#menu li a:hover{
+	background:#4682B4;/*f90*/
+	color:#fff;
+}
+.visit{display:none;}
+
+/*-----------------*/
+img{
+	width:100%;/*@変更　width:520px;*/
+}
+/*--------- タグ ---------*/
+h1{
+	width:90%;/*@変更　width:510px;*/
+	padding:2px 5px;
+	margin:40px auto;/*margin:40px;*/
+	color:#ffffff;
+	background:#4191e0;/*cc6600*/
+}
+h2{
+	width:90%;/*@変更　width:500px;*/
+	padding:0px 5px;
+	margin:10px auto 5px;/*@変更　margin:40px 40px 5px;*/
+	font-size:20px;/*1.8em*/
+	color:#002244;/*cc6600*/
+	border-left:10px solid #4682B4;/*cc6600*/
+	background:#99AABB;/*ffddaa*/
+}
+h3{
+	width:80%;/*@変更　width:500px;*/
+	margin-left: auto;
+	padding:0px 5px;
+	margin:10px auto 5px;/*@変更　margin:40px 40px 5px;*/
+	font-size:18px;/*1.8em*/
+	color:#002244;/*cc6600*/
+	border-left:10px solid #4682B4;/*cc6600*/
+	background:#8899AA;/*ffddaa*/
+}
+p{
+	width:70%;/*@変更　width:510px;*/
+	padding:5px;
+	margin:5px auto 0px;/*@削除　margin:5px 40px 0px;*/
+	font-size:1em;
+	color:#630;
+}
+ul{
+	width:90%;/*@変更　width:508px;*/
+	padding:5px;
+	margin:5px auto 40px;/*@削除　margin:5px 40px 40px;*/
+	border:1px solid #999;
+	list-style:inside decimal;
+}
+table{
+	width:90%;/*@変更　width:518px;*/
+	padding:0px;
+	margin:5px auto 40px;/*@削除　margin:5px 40px 40px;*/
+	border-collapse:collapse;
+	border-spacing:0px;
+	border:1px solid #864;
+}
+th,td{
+	padding:2px 5px;
+	border:1px solid #864;
+	text-align:left;
+}
+th{
+	background:#eee;
+	color:#630;
+}
+img{
+	width:70%;/*@変更　width:520px;*/
+	margin:5px 40px 40px;
+}
+hr{display:none;}
+
+}
